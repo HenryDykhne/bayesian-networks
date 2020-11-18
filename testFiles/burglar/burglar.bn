@@ -1,0 +1,52 @@
+5  #_of_nodes
+
+2  #_of_states_var_0
+burglary  node_label_0
+yes
+no
+1  1  children
+0  parents
+58 72  Coordinate
+2	 distr_cardinality
+0.0010 0.999 
+
+2  #_of_states_var_1
+alarm  node_label_1
+yes
+no
+2  3 4  children
+2  0 2  parents
+523 270  Coordinate
+8	 distr_cardinality
+0.95 0.05 0.94 0.06 0.29 
+0.71 0.0010 0.999 
+
+2  #_of_states_var_2
+quake  node_label_2
+yes
+no
+1  1  children
+0  parents
+931 62  Coordinate
+2	 distr_cardinality
+0.0020 0.998 
+
+2  #_of_states_var_3
+callByJohn  node_label_3
+yes
+no
+0  children
+1  1  parents
+66 436  Coordinate
+4	 distr_cardinality
+0.9 0.1 0.05 0.95 
+
+2  #_of_states_var_4
+callByMary  node_label_4
+yes
+no
+0  children
+1  1  parents
+1044 441  Coordinate
+4	 distr_cardinality
+0.7 0.3 0.01 0.99

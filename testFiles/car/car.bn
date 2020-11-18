@@ -1,0 +1,64 @@
+6 #_of_nodes
+
+2  #_of_states_var_0
+battery  node_label_0
+uncharged
+charged
+2  1 3  children
+0  parents
+255 75  Coordinate
+2  cpt_size+expns; m;
+0.3 0.7 
+
+2  #_of_states_var_1
+ignition  node_label_1
+false
+true
+1  2  children
+1  0  parents
+436 260  Coordinate
+4  cpt_size+expns; m;m;
+0.99 0.01 0.05 0.95 
+
+2  #_of_states_var_2
+starts  node_label_2
+false
+true
+1  5  children
+2  1 4  parents
+656 416  Coordinate
+12  cpt_size+expns; m;m;m;m;m;m;
+1.0 0.0 1.0 0.0 1.0 
+0.0 1.0 0.0 0.4 0.6 
+0.05 0.95 
+
+2  #_of_states_var_3
+radio  node_label_3
+off
+on
+0  children
+1  0  parents
+53 277  Coordinate
+4  cpt_size+expns; m;m;
+1.0 0.0 0.02 0.98 
+
+3  #_of_states_var_4
+gas  node_label_4
+dry
+fumes
+full
+1  2  children
+0  parents
+959 262  Coordinate
+3  cpt_size+expns; m;
+0.05 0.05 0.9 
+
+2  #_of_states_var_5
+moves  node_label_5
+false
+true
+0  children
+1  2  parents
+657 561  Coordinate
+4  cpt_size+expns; m;m;
+0.95 0.05 0.02 0.98 
