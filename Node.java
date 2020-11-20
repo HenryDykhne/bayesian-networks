@@ -36,4 +36,28 @@ public class Node {
 		return name;
 	}
 
+	public int getNumProbParams() {
+		return numProbParams;
+	}
+
+	public int getNumParents() {
+		return numParents;
+	}
+
+	public int getValueIndex(String string) {
+		return values.indexOf(string);
+	}
+
+	public int getNumValues() {
+		return numValues;
+	}
+
+	public ArrayList<Integer> getParentIndicies() {
+		return parentIndexes;
+	}
+
+	public int getIndex() {
+		return nodeIndex;
+	}
+
 }
