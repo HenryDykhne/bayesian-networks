@@ -1,4 +1,4 @@
-# cis4780a2
+# bayesian-networks
 
 # Compilation:
 `javac *.java`
